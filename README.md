@@ -1,3 +1,18 @@
+## Steps to run the ptoject
+Follow the steps to setup and test the identify point locally
+### Clone the repository 
+bash
+git clone https://github.com/SHAIKRIYAZZZZ/moonrider-backend-assessment.git
+cd moonrider-backend-assessment
+## Install dependies
+pip install -r requirements.txt
+
+## Run the Flask Server
+python.app.py
+
+## Use curl to test the API
+http://localhost:5000/identify
+
 # moonrider-backend-assesment
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
